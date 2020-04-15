@@ -13,5 +13,5 @@ jobs:
       uses: cmsd2/py-lambda-action@master
     - uses: actions/upload-artifact@v1
       with:
-        name: lambda-zip
+        name: lambda
         path: lambda.zip
