@@ -10,7 +10,7 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: Deploy code to Lambda
-      uses: cmsd2/py-lambda-action@v1.0.0
+      uses: cmsd2/py-lambda-action
     - uses: actions/upload-artifact@v1
       with:
         name: lambda-zip
